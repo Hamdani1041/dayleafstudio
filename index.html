@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy policy for the Dayleaf Studio Pin Publisher, a private tool used by the Dayleaf Studio shop owner to publish Pins to their own Pinterest account.">
+<style>*{box-sizing:border-box}body{margin:0}img{max-width:100%}</style>
+<title>Dayleaf Studio Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap">
+<style>
+  :root {
+    --ground:  #F3EFE8;
+    --surface: #FFFFFF;
+    --panel:   #EAE3D5;
+    --ink:     #23222A;
+    --muted:   #6B6559;
+    --accent:  #8A6E2F;
+    --mark:    #A8873F;
+    --rule:    #DCD3C2;
+    --focus:   #8A6E2F;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:  #191A1F;
+      --surface: #212228;
+      --panel:   #2A2A31;
+      --ink:     #ECE7DC;
+      --muted:   #A29A8B;
+      --accent:  #CBAC66;
+      --mark:    #C7A860;
+      --rule:    #35353E;
+      --focus:   #CBAC66;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:  #191A1F;
+    --surface: #212228;
+    --panel:   #2A2A31;
+    --ink:     #ECE7DC;
+    --muted:   #A29A8B;
+    --accent:  #CBAC66;
+    --mark:    #C7A860;
+    --rule:    #35353E;
+    --focus:   #CBAC66;
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sheet {
+    max-width: 43rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.75rem;
+  }
+
+  /* masthead ------------------------------------------------------- */
+  .masthead { display: flex; flex-direction: column; gap: 1.25rem; }
+  .wordmark {
+    display: flex; align-items: center; gap: .6rem;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.0625rem; font-weight: 700; letter-spacing: .01em;
+  }
+  .wordmark svg { flex: none; }
+  .wordmark .light { font-weight: 500; color: var(--muted); }
+  h1 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 6vw, 2.75rem);
+    line-height: 1.14;
+    letter-spacing: -.012em;
+    text-wrap: balance;
+    margin: 0;
+  }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: .4rem 1.5rem;
+    font-size: .8125rem; color: var(--muted);
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  .meta b { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  /* the one lifted block ------------------------------------------- */
+  .summary {
+    background: var(--panel);
+    border-left: 3px solid var(--mark);
+    padding: 1.5rem 1.75rem;
+    display: flex; flex-direction: column; gap: .75rem;
+  }
+  .summary h2 {
+    font-family: "Inter", sans-serif;
+    font-size: .6875rem; font-weight: 600;
+    letter-spacing: .13em; text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+  }
+  .summary p { margin: 0; }
+  .summary p + p { color: var(--muted); font-size: .9375rem; }
+
+  /* body ----------------------------------------------------------- */
+  section { display: flex; flex-direction: column; gap: .85rem; }
+  h2 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 1.3;
+    margin: 0;
+    text-wrap: balance;
+  }
+  p { margin: 0; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
+  ul { margin: 0; padding-left: 1.15rem; display: flex; flex-direction: column; gap: .5rem; }
+  li::marker { color: var(--mark); }
+  strong { font-weight: 600; }
+  .sections { display: flex; flex-direction: column; gap: 2.5rem; }
+
+  /* the data table -------------------------------------------------- */
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .9375rem; }
+  caption {
+    text-align: left; color: var(--muted); font-size: .8125rem;
+    padding-bottom: .6rem;
+  }
+  th, td { text-align: left; padding: .7rem .9rem .7rem 0; vertical-align: top; border-bottom: 1px solid var(--rule); }
+  thead th {
+    font-size: .6875rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--muted);
+    border-bottom: 1px solid var(--ink);
+  }
+  tbody th { font-weight: 500; white-space: nowrap; padding-right: 1.5rem; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 1.5rem;
+    font-size: .8125rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header class="masthead">
+    <div class="wordmark">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+        <path d="M15.5 2.5C8 2.5 3.2 5.6 3.2 10.6c0 1.7.6 3.2 1.6 4.2M4 15.5C6 9 9.8 5.9 14.4 4.6"
+              fill="none" stroke="#A8873F" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      Dayleaf Studio <span class="light">· Pin Publisher</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <span>Effective <b>4 September 2026</b></span>
+      <span>Last updated <b>4 September 2026</b></span>
+      <span>Applies to <b>Dayleaf Studio Pin Publisher</b></span>
+    </div>
+  </header>
+
+  <div class="summary">
+    <h2>In short</h2>
+    <p>This application is a private tool used by one person — the owner of the Dayleaf Studio shop — to publish Pins to their own Pinterest account.</p>
+    <p>It has no users other than its owner, collects nothing from anyone else, and shares no data with third parties.</p>
+  </div>
+
+  <div class="sections">
+
+    <section>
+      <h2>What this application is</h2>
+      <p>Dayleaf Studio Pin Publisher is a script run on the shop owner's own computer. It takes product images prepared offline and posts them as Pins to boards belonging to the Dayleaf Studio Pinterest business account.</p>
+      <p>It is not a website, a hosted service, or a product offered to anyone else. There is no sign-up, and no one but the owner can operate it.</p>
+    </section>
+
+    <section>
+      <h2>What it accesses on Pinterest</h2>
+      <p>The application acts only on the single Pinterest account that authorises it, using that account's own permissions.</p>
+      <div class="scroll">
+        <table>
+          <caption>Pinterest data touched, and why</caption>
+          <thead>
+            <tr><th scope="col">Data</th><th scope="col">Why it is used</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Boards</th><td>To list the owner's own boards, so a Pin can be placed on the right one.</td></tr>
+            <tr><th scope="row">Pins</th><td>To create new Pins, and to confirm a Pin was created.</td></tr>
+            <tr><th scope="row">Account name</th><td>To confirm the correct account is connected before publishing.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>It does not read, collect, or process the Pins, boards, profiles, or activity of any other Pinterest user.</p>
+    </section>
+
+    <section>
+      <h2>What is stored, and where</h2>
+      <p>One thing is stored: the OAuth access token Pinterest issues when the owner grants permission. It is kept in a local configuration file on the owner's computer and is used only to authenticate that account's own API requests.</p>
+      <p>There is no server, no database, and no cloud storage. No Pinterest content is copied or retained after a Pin is published.</p>
+    </section>
+
+    <section>
+      <h2>What it never does</h2>
+      <ul>
+        <li>It does not sell, rent, or trade any data.</li>
+        <li>It does not share data with third parties, advertisers, or analytics providers.</li>
+        <li>It does not use Pinterest data to train machine-learning or AI models.</li>
+        <li>It does not access the data of Pinterest users other than the account that authorises it.</li>
+        <li>It does not track visitors, because it has no visitors — it is a local script, not a site.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Withdrawing access</h2>
+      <p>Because the only account involved is the owner's own, access can be withdrawn at any time from Pinterest's <strong>Settings → Apps</strong>, which revokes the token immediately. Deleting the local configuration file removes the stored token from the computer.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>The application is a business tool for one adult shop owner. It is not directed at children and is not made available to them.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If what the application does changes, this page is updated and the "last updated" date above changes with it.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent through the <strong>Message Seller</strong> link on the Dayleaf Studio shop page on Etsy, which reaches the same person who operates the application.</p>
+    </section>
+
+  </div>
+
+  <footer>Dayleaf Studio — undated printable planners and spreadsheet templates.</footer>
+
+</div>
+</body>
+</html>
